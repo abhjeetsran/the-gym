@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+      /* border: 1px solid red;    */
+}
+/* .batn{
+    margin-top: 27px;
+    height: 40px;
+    border: none;
+}
+.abhijeet>img{
+    width: 100px;
+}
+.abhijeet{
+    text-align: center;
+}  */
+.block-20 {
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 250px;
+    width: 70%;
+    position: relative;
+    display: block;
+    margin-bottom: 20px;
+    margin-right: 30px;
+}
+.block-21 .blog-img {
+    display: block;
+    height: 80px;
+    width: 180px;
+}
+.sidebar-box {
+    margin-bottom: 30px;
+    padding: 25px;
+    font-size: 15px;
+    width: 100%;
+    background: #fff;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    
+}
+
+ @media screen and (max-width:800px) {
+  .rrr>div{
+    display: none;
+  }
+  .rrr>.heading>a{
+    font-size: 15px;
+  }
+  .rrr>p{
+    display: none;
+  }
+} 
+@media screen and (max-width:330px) {
+  .block-20{
+    width: 340px;
+  }
+  .rrr>.heading>a{
+    font-size: 10px;
+  }
+  .sran{
+    width:350px ;
+  }
+
+}
+
+
+
+</style>
+
+<body>
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+            <a class="navbar-brand fs-2" href="#" style="color: rgb(237, 9, 9);">THE GYM</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            SHOP
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link " href="about.html">
+                            ABOUT
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="blog.html" aria-disabled="true">BLOG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-disabled="true" href="contact.html">CONTACT</a>
+                    </li>
+
+                    <li class="nav-item" style="margin-top: 5px;">
+                        <a href="addcart.html"><i class="fa-solid fa-cart-shopping mt-2" style="color: black;"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- fresh food -->
+    <div class="container-fluid">
+        <div class="row" style="background-image: url(RS1.jpg) ;height: 800px; background-position: center; background-size: cover;">
+            <div class="col d-flex justify-content-center align-items-center">
+                <h1 style="color: rgb(251, 4, 4);">BLOG</h1>
+            </div>
+        </div>
+    </div>
+    <!-- PHOTO -->
+    <div class="container">
+        <div class="row">
+          <div class="col-lg-8 ftco-animate fadeInUp ftco-animated">
+						<div class="row">
+							<div class="col-md-12 d-flex ftco-animate fadeInUp ftco-animated sran">
+		            <div class="blog-entry align-self-stretch d-md-flex sran" style="margin-top: 50px;height: 510px;" >
+		              <a href="#" class="block-20" style="background-image: url(rs2.jpg);"> 
+		              </a>
+		              <div class="text d-block pl-md-4 rrr sran">
+		              	<div class="meta mb-3">
+		                  <div><a href="#" style="text-decoration: none; color: black;">July 20, 2019</a></div>
+		                  <div><a href="#" style="text-decoration: none; color: black;">Admin</a></div>
+		                  <div><a href="#" class="meta-chat" style="text-decoration: none; color: black;"><span class="icon-chat"></span> 3</a></div>
+		                </div>
+		                <h3 class="heading "><a href="#" style="text-decoration: none; color: black;">Even the all-powerful Pointing has no control about the blind texts</a></h3>
+		                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+		                <h5><a href="blog-single.html" class="btn btn-primary py-2 px-3" style="background-color: rgb(228, 8, 19); border: none;">Read more</a></h5>
+		              </div>
+		            </div>
+		          </div>
+		          <div class="col-md-12 d-flex ftco-animate fadeInUp ftco-animated">
+		            <div class="blog-entry align-self-stretch d-md-flex sran" style="height: 510px;">
+		              <a href="blog-single.html" class="block-20" style="background-image: url(abc1.avif);">
+		              </a>
+		              <div class="text d-block pl-md-4 rrr sran">
+		              	<div class="meta mb-3">
+		                  <div><a href="#"style="text-decoration: none; color: black;">July 20, 2019</a></div>
+		                  <div><a href="#" style="text-decoration: none; color: black;">Admin</a></div>
+		                  <div><a href="#" class="meta-chat" style="text-decoration: none; color: black;"><span class="icon-chat"></span> 3</a></div>
+		                </div>
+		                <h3 class="heading"><a href="#" style="text-decoration: none; color: black;">Even the all-powerful Pointing has no control about the blind texts</a></h3>
+		                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+		                <h5><a href="blog-single.html" class="btn btn-primary py-2 px-3" style="background-color: rgb(209, 9, 29); border: none;">Read more</a></h5>
+		              </div>
+		            </div>
+		          </div>
+		          <div class="col-md-12 d-flex ftco-animate fadeInUp ftco-animated">
+		            <div class="blog-entry align-self-stretch d-md-flex sran" style="height: 510px;">
+		              <a href="blog-single.html" class="block-20" style="background-image: url(abc2.avif);">
+		              </a>
+		              <div class="text d-block pl-md-4 rrr sran">
+		              	<div class="meta mb-3">
+		                  <div><a href="#" style="text-decoration: none; color: black;">July 20, 2019</a></div>
+		                  <div><a href="#" style="text-decoration: none; color: black;">Admin</a></div>
+		                  <div><a href="#" style="text-decoration: none; color: black;" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+		                </div>
+		                <h3 class="heading"><a href="#" style="text-decoration: none; color: black;">Even the all-powerful Pointing has no control about the blind texts</a></h3>
+		                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+		                <h5><a href="blog-single.html" class="btn btn-primary py-2 px-3" style="background-color: rgb(232, 10, 10); border: none;">Read more</a></h5>
+		              </div>
+		            </div>
+		          </div>
+		          <div class="col-md-12 d-flex ftco-animate fadeInUp ftco-animated">
+		            <div class="blog-entry align-self-stretch d-md-flex sran" style="height: 510px;">
+		              <a href="blog-single.html" class="block-20" style="background-image: url(abc3.avif);">
+		              </a>
+		              <div class="text d-block pl-md-4 rrr sran">
+		              	<div class="meta mb-3">
+		                  <div><a href="#" style="text-decoration: none; color: black;">July 20, 2019</a></div>
+		                  <div><a href="#" style="text-decoration: none; color: black;">Admin</a></div>
+		                  <div><a href="#" class="meta-chat" style="text-decoration: none; color: black;"><span class="icon-chat"></span> 3</a></div>
+		                </div>
+		                <h3 class="heading bbb"><a href="#" style="text-decoration: none; color: black;">Even the all-powerful Pointing has no control about the blind texts</a></h3>
+		                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+		                <h5><a href="blog-single.html" class="btn btn-primary py-2 px-3" style="background-color: rgb(224, 10, 10); border: none;">Read more</a></h5>
+		              </div>
+		            </div>
+		          </div>
+		          <div class="col-md-12 d-flex ftco-animate fadeInUp ftco-animated">
+		            <div class="blog-entry align-self-stretch d-md-flex sran" style="height: 510px;">
+		              <a href="blog-single.html" class="block-20" style="background-image: url(abc4.avif);">
+		              </a>
+		              <div class="text d-block pl-md-4 rrr sran">
+		              	<div class="meta mb-3">
+		                  <div><a href="#" style="text-decoration: none; color: black;">July 20, 2019</a></div>
+		                  <div><a href="#" style="text-decoration: none; color: black;">Admin</a></div>
+		                  <div><a href="#" class="meta-chat" style="text-decoration: none; color: black;"><span class="icon-chat"></span> 3</a></div>
+		                </div>
+		                <h3 class="heading"><a href="#" style="text-decoration: none; color: black;">Even the all-powerful Pointing has no control about the blind texts</a></h3>
+		                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+		                <h5><a href="blog-single.html" class="btn btn-primary py-2 px-3" style="background-color: rgb(227, 10, 10); border: none;">Read more</a></h5>
+		              </div>
+		            </div>
+		          </div>
+		          <div class="col-md-12 d-flex ftco-animate fadeInUp ftco-animated">
+		            <div class="blog-entry align-self-stretch d-md-flex sran" style="height: 510px;">
+		              <a href="blog-single.html" class="block-20" style="background-image: url(abc5.avif);">
+		              </a>
+		              <div class="text d-block pl-md-4 rrr sran">
+		              	<div class="meta mb-3">
+		                  <div><a href="#" style="text-decoration: none; color: black;">July 20, 2019</a></div>
+		                  <div><a href="#" style="text-decoration: none; color: black;">Admin</a></div>
+		                  <div><a href="#" class="meta-chat" style="text-decoration: none; color: black;"><span class="icon-chat"></span> 3</a></div>
+		                </div>
+		                <h3 class="heading"><a href="#" style="text-decoration: none; color: black;">Even the all-powerful Pointing has no control about the blind texts</a></h3>
+		                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+		                <h5><a href="blog-single.html" class="btn btn-primary py-2 px-3" style="background-color: rgb(232, 8, 8); border: none;">Read more</a></h5>
+		              </div>
+		            </div>
+		          </div>
+						</div>
+          </div> <!-- .col-md-8 -->
+          <div class="col-lg-4 sidebar ftco-animate fadeInUp ftco-animated">
+            <div class="sidebar-box">
+              <form action="#" class="search-form">
+                <div class="form-group">
+                  <span class="icon ion-ios-search"></span>
+                  <input type="text" class="form-control" placeholder="Search...">
+                </div>
+              </form>
+            </div>
+            <div class="sidebar-box ftco-animate fadeInUp ftco-animated">
+            	<h3 class="heading">Categories</h3>
+              <ul class="categories">
+                <li><a href="#" style="text-decoration: none; color: black;">Diet <span>(12)</span></a></li>
+                <hr>
+                <li><a href="#" style="text-decoration: none; color: black;">Pre-workout <span>(22)</span></a></li>
+                <hr>
+                <li><a href="#" style="text-decoration: none; color: black;">Juice <span>(37)</span></a></li>
+                <hr>
+                <li><a href="#" style="text-decoration: none; color: black;">Dries <span>(42)</span></a></li>
+                <hr>
+              </ul>
+            </div>
+
+            <div class="sidebar-box ftco-animate fadeInUp ftco-animated">
+              <h3 class="heading">Recent Blog</h3>
+              <div class="block-21 mb-4 d-flex">
+                <a class="blog-img mr-4" style="background-image: url(abc6.avif); background-size: 100% 100%;"></a>
+                <div class="text">
+                  <h3 class="heading-1"><a href="#" style="text-decoration: none; color: black;">Even the all-powerful Pointing has no control about the blind texts</a></h3>
+                  <div class="meta">
+                    <div><a href="#" style="text-decoration: none; color: black;"><span class="icon-calendar"></span> April 09, 2019</a></div>
+                    <div><a href="#" style="text-decoration: none; color: black;"><span class="icon-person"></span> Admin</a></div>
+                    <div><a href="#" style="text-decoration: none; color: black;"><span class="icon-chat"></span> 19</a></div>
+                  </div>
+                </div>
+              </div>
+              <div class="block-21 mb-4 d-flex">
+                <a class="blog-img mr-4" style="background-image: url(abc7.avif); background-size: 100% 100%;"></a>
+                <div class="text">
+                  <h3 class="heading-1"><a href="#" style="text-decoration: none; color: black;">Even the all-powerful Pointing has no control about the blind texts</a></h3>
+                  <div class="meta">
+                    <div><a href="#" style="text-decoration: none; color: black;"><span class="icon-calendar"></span> April 09, 2019</a></div>
+                    <div><a href="#" style="text-decoration: none; color: black;"><span class="icon-person"></span> Admin</a></div>
+                    <div><a href="#" style="text-decoration: none; color: black;"><span class="icon-chat"></span> 19</a></div>
+                  </div>
+                </div>
+              </div>
+              <div class="block-21 mb-4 d-flex">
+                <a class="blog-img mr-4" style="background-image: url(abc3.avif); background-size: 100% 100%;"></a>
+                <div class="text">
+                  <h3 class="heading-1"><a href="#" style="text-decoration: none; color: black;">Even the all-powerful Pointing has no control about the blind texts</a></h3>
+                  <div class="meta">
+                    <div><a href="#" style="text-decoration: none; color: black;"><span class="icon-calendar"></span> April 09, 2019</a></div>
+                    <div><a href="#" style="text-decoration: none; color: black;"><span class="icon-person"></span> Admin</a></div>
+                    <div><a href="#" style="text-decoration: none; color: black;"><span class="icon-chat"></span> 19</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="sidebar-box ftco-animate fadeInUp ftco-animated">
+              <h3 class="heading">Tag Cloud</h3>
+              <div class="tagcloud">
+                <a href="#" style="text-decoration: none; color: black;" class="tag-cloud-link">fruits</a>
+                <a href="#" style="text-decoration: none; color: black;" class="tag-cloud-link">tomatoe</a>
+                <a href="#" style="text-decoration: none; color: black;" class="tag-cloud-link">mango</a>
+                <a href="#" style="text-decoration: none; color: black;" class="tag-cloud-link">apple</a>
+                <a href="#" style="text-decoration: none; color: black;" class="tag-cloud-link">carrots</a>
+                <a href="#"  style="text-decoration: none; color: black;"class="tag-cloud-link">orange</a>
+                <a href="#" style="text-decoration: none; color: black;" class="tag-cloud-link">pepper</a>
+                <a href="#" style="text-decoration: none; color: black;" class="tag-cloud-link">eggplant</a>
+              </div>
+            </div>
+
+            <div class="sidebar-box ftco-animate fadeInUp ftco-animated">
+              <h3 class="heading">Paragraph</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus itaque, autem necessitatibus voluptate quod mollitia delectus aut, sunt placeat nam vero culpa sapiente consectetur similique, inventore eos fugit cupiditate numquam!</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+       <!-- foot -->
+    <div class="container-fluid mt-5 " style="background-color: rgb(238, 171, 171);">
+      <div class="row mx-5  ">
+          <div class="col mt-5">
+              <h3>Diet</h3>
+              <p>Nisi, purus vitae, ultrices nunc. Sit ac sit suscipit hendrerit. Gravida massa volutpat aenean odio
+                  erat nullam fringilla.</p>
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-youtube"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-google"></i>
+          </div>
+          <div class="col mt-5">
+              <h3>Menu</h3>
+              <P>HOME</P>
+              <P>ABOUT</P>
+              <P>SHOP</P>
+              <P>BLOGS</P>
+              <P>CONTACTS</P>
+          </div>
+          <div class="col mt-5">
+              <h3> HELP</h3>
+              <P>TRACK YOUR ORDER</P>
+              <P>RETURN POLICIES</P>
+              <P>SHOP</P>
+              <P>BLOGS</P>
+              <P>FAQS</P>
+          </div>
+          <div class="col mt-5">
+              <h3>Have a Question</h3>
+              <P>Do you have any queries or suggestions?<br> yourinfo@gmail.com <br> If you need support? Just give us
+                  a call</P>
+          </div>
+      </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
