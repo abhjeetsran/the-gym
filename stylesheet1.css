@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+     /* border: 1px solid red;   */
+}
+.fa-solid{
+    color: black;
+    padding: 7px;
+}
+.d-block{
+    height: 650px;
+    width: 800px;
+}
+.carousel-caption>h1{
+    font-size: 80px;
+}
+.carousel-caption>button{
+    background-color: rgb(104, 169, 6);
+    color: aliceblue;
+    border-radius: 15px;
+    padding: 5px 10px ;
+    border: none;
+}
+.abhijeet>img{
+    width: 100px;
+}
+.abhijeet{
+    text-align: center;
+}
+.abc{
+    height: 620px;
+    width: 600px;
+    background-repeat: no-repeat;
+    background-size:500px 1100px;
+
+}
+.abcd{
+    height: 420px;
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+.ccc{
+    height: 420px;
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+.ddd{
+    height: 420px;
+    background-repeat: no-repeat;
+    background-size:cover 
+}
+.eee{
+    height: 420px;
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+@media screen and (max-width:750px) {
+    .ravi>h1{
+        font-size: 50px;
+    }
+    
+}
+@media screen and (max-width:550px) {
+    .ravi>h1{
+        font-size: 40px;
+    }
+    .ddd{
+        margin-top: 20px;
+    }
+    
+}
+.product>a>img:hover{
+    scale: 1.1;
+}
+.product{
+    overflow: hidden;
+}
+.product>a>img{
+    transition: all .5s ease;
+}
+.xyz{
+    row-gap: 10px;
+}
+.vip img{
+    width: 150px;
+}
+.batn{
+    /* width: 500px; */
+    margin-top: 27px;
+    height: 40px;
+    border: none;
+}
+
+
